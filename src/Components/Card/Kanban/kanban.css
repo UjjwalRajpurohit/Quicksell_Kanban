@@ -1,0 +1,118 @@
+/* Kanban Board Container */
+.kanban-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+}
+
+/* Kanban Board */
+.kanban-board {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+/* Kanban Columns */
+.kanban-column {
+    width: 100%;
+    max-width: 250px;
+    background-color: #f0f0f0;
+    /* border: 1px solid #e0e0e0; */
+    /* border-radius: 10px; */
+    padding: 20px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+    /* left: 10vw; */
+}
+.r{
+  position: relative;
+  right: 8vw;
+}
+
+
+.x{
+  position: relative;
+  left:-38px !important;
+}
+
+.y{
+  position: relative;
+  left: 1.4vw;
+}
+.z{
+  position: relative;
+  left: 2.5vw;
+}
+.a{
+  position: relative;
+  left: 2.4vw;
+}
+/* Column Headers */
+.column-header {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+/* Task Count */
+.task-count {
+    background-color: #e0e0e0;
+    color: #444;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+/* Cards within the Kanban Columns */
+.kanban-column .card-container {
+    margin-bottom: 16px;
+}
+
+.col-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    width: 200px;
+  }
+  
+  .col-head h3 {
+    margin-left: 10px;  /* Adds some spacing from the image to the left */
+  }
+  
+  .col-head img:last-child, 
+  .col-head img:nth-last-child(2) {
+    margin-left: auto;  /* Pushes the "add" and "dots" images to the rightmost side */
+  }
+  
+/* .col-head {
+    gap: 13px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0px; 
+    margin-bottom: 13px;
+
+  }
+  
+  .column-header {
+    font-size: 13px;
+    margin: 0;
+  
+  img {
+    width: 12px;
+    height: 12px; 
+  } */
+  
+  
